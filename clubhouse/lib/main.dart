@@ -33,12 +33,17 @@ class _HomeState extends State<Home> {
           Expanded(
             flex: 12,
             child:  Container(
+              decoration: BoxDecoration(
+                color: Colors.yellow,
+                border: Border.all(color: Colors.black),
+              ),
               margin:EdgeInsets.all(20.0),
               color: Colors.pink,
               padding:EdgeInsets.all(30.0),
               child: Text('two'),
+              height: 120,
+              ),
             ),
-          )
          ],
       ),
     );
